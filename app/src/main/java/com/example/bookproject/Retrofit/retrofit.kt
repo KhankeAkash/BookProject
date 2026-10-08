@@ -24,6 +24,6 @@ object retrofit {
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(ApiService::class.java)
+             .create(ApiService::class.java)
     }
 }
