@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colortoolbar"
+    android:elevation="@dimen/_6sdp"
+    android:filterTouchesWhenObscured="true"
+    app:theme="@style/Theme.BookProject"
+    app:titleTextColor="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/titleTv"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:fontFamily="@style/inter_medium"
+            android:textSize="@dimen/_14sdp"
+            tools:text=""
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/editBtn"/>
+
+
+        <ImageView
+            android:id="@+id/editBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/ic_edit_trailing"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/saveButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/savebutton"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                android:id="@+id/saveIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/orange_save"
+                android:layout_marginEnd="4dp" /> <!-- adjust gap here -->
+
+            <TextView
+                android:id="@+id/saveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:fontFamily="@font/inter_semibold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

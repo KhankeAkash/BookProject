@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#FFEB99</color>
+    <color name="colorPrimary">#FF5440</color>
+    <color name="orange_pacecount_color">#FF5440</color>
+    <color name="orange_pacecount_dark">#BF6400</color>
+    <color name="agat_text_color">#3F47A5</color>
+    <color name="lgray">#FAFAFA</color>
+    <color name="otp_box_focused">#F2F4FC</color>
+    <color name="secondary400">#8097DA</color>
+    <color name="colortoolbar">#3F47A5</color>
+    <color name="approval">#FFFAE6</color>
+    <color name="colorPrimaryDark">#3F47A5</color>
+    <color name="colorSecondary">#59C5C5</color>
+    <color name="colorSecondaryDark">#419191</color>
+    <color name="colorSecondaryLight">#9BCECE</color>
+    <color name="colorGray">#9F9EA0</color>
+    <color name="colorLightGray">#7EA8D9</color>
+    <color name="colorGreen">#1F4545</color>
+    <color name="colorDarkGreen">#344545</color>
+    <color name="black">#FF000000</color>
+    <color name="txt">#C47218</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_orange_bg">#FFF3E0</color>
+    <color name="light_grey_bg">#F5F5F5</color>
+
+    <color name="offlineTaskBackground">#FEF9E7</color>
+    <color name="textBackground">#FBE6CF</color>
+    <color name="background">#3F47A5</color>
+    <color name="backgrounddailog">#FEF9ED</color>
+    <color name="disable">#F4F5F7</color>
+    <color name="dawnbackground">#FFFBEB</color>
+    <color name="textview_primary">#1B1D20</color>
+    <color name="alto">#D6D6D6</color>
+    <color name="bluish">#2D71C2</color>
+    <color name="BrandPrimaryDark">#193759</color>
+    <color name="Secondary300">#8ED2D2</color>
+    <color name="Secondary50">#F1FAFA</color>
+    <color name="Secondary500">#3D9A9D</color>
+    <color name="BrandPrimaryLight">#3D86D9</color>
+    <color name="debitRatioWithoutHouseBackgroundColor">#F1FAFA</color>
+
+    <color name="design_default_color_error">#B00020</color>
+    <color name="cardViewOutlineAmbientShadowColor">#2328480D</color>
+
+    <color name="neutral_main_color">#1B1D20</color>
+    <color name="primary_100">#CBDAEC</color>
+    <color name="primary_300">#9DBADC</color>
+
+    <color name="Clickblue">#3D86D9</color>
+    <color name="Clickgreen">#22C55E</color>
+    <color name="Clickyellow">#F59C0B</color>
+    <color name="greenActiiveLead">#6ABE6E</color>
+    <color name="closedloan">#8ED2D2</color>
+    <color name="diableBlue">#7EA8D9</color>
+    <color name="diable">#F4F6FB</color>
+    <color name="diablefield">#E4E7E9</color>
+    <color name="status1">#FFE45C</color>
+
+
+    <color name="lineview_og">#F9CB99</color>
+    <color name="neutral_50">#F4F5F7</color>
+    <color name="neutral_100">#E4E7E9</color>
+    <color name="neutral_200">#CCD1D5</color>
+    <color name="neutral_300">#A8B1B8</color>
+    <color name="neutral_400">#7D8993</color>
+    <color name="neutral_500">#626E78</color>
+    <color name="linebottom">#EFEFEF</color>
+    <color name="neutral_600">#545D66</color>
+    <color name="neutral_700">#484F56</color>
+    <color name="textDarkColor">#3F444D</color>
+    <color name="neutral_800">#40454A</color>
+    <color name="neutral_900">#383B41</color>
+    <color name="neutral_main">#1B1D20</color>
+    <color name="linewView">#DFDFDF</color>
+    <color name="brownTV">#6F4518</color>
+
+    <color name="neutral700">#305586</color>
+    <color name="orange">#F59C0B</color>
+    <color name="grey">#E0E0E0</color>
+
+    <color name="gray_900">#1A1F36</color>
+    <color name="gray_new">#BC1A1F36</color>
+    <color name="dark_gray">#D4D4D8</color>
+
+    <color name="error_50">#FDF3F3</color>
+    <color name="error_100">#FDE3E3</color>
+    <color name="error_200">#FBCDCD</color>
+    <color name="error_300">#F8A9A9</color>
+    <color name="error_400">#F17878</color>
+    <color name="error_500">#E74C4C</color>
+    <color name="error_600">#D32F2F</color>
+    <color name="error_700">#B12424</color>
+    <color name="error_800">#932121</color>
+    <color name="error_900">#7A2222</color>
+
+    <color name="pending_50">#FFFBEB</color>
+    <color name="pending_100">#FEF3C7</color>
+    <color name="pending_200">#FDE58A</color>
+    <color name="pending_300">#FCD24D</color>
+    <color name="disable_text_leadsummary">#4C4B4D</color>
+    <color name="dawn_text_color">#5F5E60</color>
+    <color name="dawn_text_vl">#39383A</color>
+    <color name="dawn_text">#5F5E60</color>
+    <color name="toolbartitle">#39383A</color>
+    <color name="pending_400">#FBC02D</color>
+    <color name="pending_500">#F59C0B</color>
+    <color name="pending_600">#D97506</color>
+    <color name="pending_700">#B45209</color>
+    <color name="pending_800">#923F0E</color>
+    <color name="pending_900">#78340F</color>
+    <color name="dawn_text_color2">#7F7E80</color>
+
+
+    <color name="debt_ratio">#FFFBEB</color>
+    <color name="success_50">#F3FAF3</color>
+    <color name="success_100">#E3F5E3</color>
+    <color name="success_200">#C8EAC9</color>
+    <color name="success_300">#6ABE6E</color>
+    <color name="success_400">#6ABE6E</color>
+    <color name="success_500">#45A249</color>
+    <color name="success_600">#388E3C</color>
+    <color name="success_700">#2C692F</color>
+    <color name="success_800">#275429</color>
+    <color name="success_900">#224525</color>
+
+    <color name="default_message_color">#000000</color>
+    <color name="red">#FF0000</color>
+
+    <color name="secondary_progressbar">#E7EDE7</color>
+
+
+    <color name="lightGray">#FDE58A</color>
+    <color name="darkGray">#F59C0B</color>
+    <color name="lightYellow">#FFFACD</color>
+    <color name="darkYellow">#FFD700</color>
+    <color name="lightGreen">#E3F5E3</color>
+    <color name="darkGreen">#006400</color>
+    <color name="darkCyan">#26A7A7</color>
+    <color name="lightError">#FFB6C1</color>
+    <color name="darkError">#FF0000</color>
+    <color name="lightActiveLead">#C8EAC9</color>
+    <color name="darkActiveLead">#228B22</color>
+    <color name="white2">#E3E5E9</color>
+    <color name="dark_black">#4D192538</color>
+    <color name="orange_light">#FEC08F</color>
+    <color name="backgorund_orange">#FCF9EB</color>
+
+    <color name="light_pink">#FDF2E6</color>
+    <color name="light_orange2">#F59E0B</color>
+    <color name="light_red">#EF4444</color>
+    <color name="light_green">#16A34A</color>
+    <color name="light_grey2">#F2F7FD</color>
+    <color name="light_yellow">#FFFAE6</color>
+    <color name="light_grey3">#CFCFCF</color>
+    <color name="dark_brown3">#665200</color>
+    <color name="light_ornage">#FFF5CC</color>
+    <color name="light_pink2">#FCE5CC</color>
+    <color name="dark_grey2">#868FA0</color>
+    <color name="dark_black2">#262626</color>
+    <color name="dark_green2">#15803D</color>
+    <color name="light_grey4">#9F9EA0</color>
+    <color name="dark_c2">#603200</color>
+    <color name="dark_grey4">#4C4B4D</color>
+
+
+    <!--New agat color resources-->
+    <color name="container_light_blue">#C9DAF6</color>
+    <color name="container_blue">#29ABE2</color>
+    <color name="container_light_pink">#FEE4E1</color>
+
+    <color name="yello_500">#F59E0B</color>
+    <color name="green_700">#15803D</color>
+
+    <color name="app_type_background">#EFF6FF</color>
+    <color name="pending_background">#FFFBEB</color>
+    <color name="completed_background">#F0FDF4</color>
+    <color name="return_background">#E5E7EB</color>
+    <color name="rejected_background">#FEF2F2</color>
+    <color name="rb_checked">#F2F4FB</color>
+</resources>

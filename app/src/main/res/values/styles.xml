@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- res/values/styles.xml -->
+    <style name="MyDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarTheme">@style/MyCalendarTheme</item>
+    </style>
+
+    <style name="MyCalendarTheme" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="MyTimePickerTheme" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="materialTimePickerTheme">@style/MyTimeTheme</item>
+    </style>
+
+    <style name="MyTimeTheme" parent="Widget.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+
+    <style name="PlaceholderTextSmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">13dp</item> <!-- Set your desired size -->
+        <item name="android:textColor">#999999</item> <!-- Optional -->
+    </style>
+
+</resources>
